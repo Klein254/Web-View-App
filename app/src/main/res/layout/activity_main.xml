@@ -9,96 +9,67 @@
 
     <Button
         android:id="@+id/btnStandard"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="150dp"
+        android:layout_width="171dp"
+        android:layout_height="67dp"
         android:background="#4CAF50"
         android:backgroundTint="#4CAF50"
         android:text="Standatrd Chatered Bank"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/btnStansbic"
-        app:layout_constraintTop_toBottomOf="@+id/btnDTB" />
+        tools:layout_editor_absoluteX="222dp"
+        tools:layout_editor_absoluteY="514dp" />
 
     <Button
         android:id="@+id/btnStansbic"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="33dp"
-        android:layout_marginBottom="150dp"
+        android:layout_width="171dp"
+        android:layout_height="67dp"
         android:background="#4CAF50"
         android:backgroundTint="#4CAF50"
         android:text="Stanbic                   Bank"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/btnStandard"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnABSA" />
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="515dp" />
 
     <Button
         android:id="@+id/btnDTB"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginEnd="17dp"
-        android:layout_marginBottom="199dp"
+        android:layout_width="172dp"
+        android:layout_height="62dp"
         android:background="#4CAF50"
         android:backgroundTint="#4CAF50"
         android:text="Diamond Trust Bank"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        app:layout_constraintBottom_toTopOf="@+id/btnStandard"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/btnABSA"
-        app:layout_constraintTop_toBottomOf="@+id/btnKCB" />
+        tools:layout_editor_absoluteX="221dp"
+        tools:layout_editor_absoluteY="320dp" />
 
     <Button
         android:id="@+id/btnABSA"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="32dp"
-        android:layout_marginBottom="199dp"
+        android:layout_width="173dp"
+        android:layout_height="61dp"
         android:background="#4CAF50"
         android:backgroundTint="#4CAF50"
         android:text="ABSA                   Bank"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        app:layout_constraintBottom_toTopOf="@+id/btnStansbic"
-        app:layout_constraintEnd_toStartOf="@+id/btnDTB"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnCooperative" />
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="323dp" />
 
     <Button
         android:id="@+id/btnCooperative"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="119dp"
-        android:layout_marginEnd="34dp"
-        android:layout_marginBottom="174dp"
+        android:layout_width="171dp"
+        android:layout_height="61dp"
         android:background="#009688"
         android:backgroundTint="#009688"
         android:text="Co-operative Bank"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        app:layout_constraintBottom_toTopOf="@+id/btnABSA"
-        app:layout_constraintEnd_toStartOf="@+id/btnKCB"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="119dp" />
 
     <Button
         android:id="@+id/btnKCB"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginTop="115dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="174dp"
+        android:layout_width="167dp"
+        android:layout_height="61dp"
         android:background="#4CAF50"
         android:backgroundTint="#4CAF50"
         android:text="KCB                   Bank"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        app:layout_constraintBottom_toTopOf="@+id/btnDTB"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/btnCooperative"
-        app:layout_constraintTop_toTopOf="parent" />
+        tools:layout_editor_absoluteX="222dp"
+        tools:layout_editor_absoluteY="119dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
