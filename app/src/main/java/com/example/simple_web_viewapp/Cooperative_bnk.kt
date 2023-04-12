@@ -17,6 +17,6 @@ class Cooperative_bnk : AppCompatActivity() {
 
         val webSettings = coopWeb.settings
         webSettings.javaScriptEnabled = true
-        coopWeb.loadUrl("")
+        coopWeb.loadUrl("https://www.co-opbank.co.ke/")
     }
 }
